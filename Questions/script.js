@@ -1,3 +1,5 @@
+// BASICS Day 1 to 6
+
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 1 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 // 1. Sum of two integers
@@ -32,7 +34,26 @@
 // 4. Accept the User's name, age and print in following manner
 	// Ex - Hello Shery, you are 12 years old.
 
-    let name = prompt("Enter your name")
-    let age = prompt("Enter your age")
-    console.log(`Hello ${name} you are & ${age} years old`)
+    // let name = prompt("Enter your name")
+    // let age = prompt("Enter your age")
+    // console.log(`Hello ${name} you are & ${age} years old`)
 
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 5 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 5.Solve Increment & decrement operator questions on
+	// https://javaconceptoftheday.com/quiz-on-increment-and-decrement-operators/
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 6 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 6. Accept two numbers from user and swap their values
+// Part 2 - Swap without using third variable
+//                                                             using third variable
+// let a = 2
+// let b = 4
+// let temp = a
+// a = b
+// b = temp 
+// console.log(a,b)
+
+//                                                           not used third variable
+// let a = 10
