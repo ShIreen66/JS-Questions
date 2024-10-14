@@ -62,3 +62,14 @@
 // b = a-b
 // a = a-b
 // console.log(a,b)
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 7 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// MATH CLASS Day 
+
+// 7. Accept the length and width of a rectangle. Calculate & print the area and perimiter.
+
+let length = +prompt("Enter the length of rectangle")
+let width = +prompt("Enter the brath of rectangle")
+console.log(`The area of rectangle is ${length*width}`)
+console.log(`The perimiter of rectangle is ${2*(length+width)}`)
