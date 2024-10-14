@@ -106,6 +106,14 @@
 
 // 10. Find surface area of sphere
 
-let r = +prompt("Enter the radius of circle")
-let circumference = 2*Math.PI*r
-console.log(circumference.toFixed(2))
+// let r = +prompt("Enter the radius of sphere")
+// let area = 4*Math.PI*r*r
+// console.log(area.toFixed(2))
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 11 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 11. Find circumference and area of circle
+
+// let r = +prompt("Enter the radius of circle")
+// let circumference = 2*Math.PI*r
+// console.log(circumference.toFixed(2))
