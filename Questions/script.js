@@ -94,9 +94,18 @@
 
 // 9. Accept the three sides of triangle and calculate the area using herons formula
 
-let a = +prompt("Enter the first side of traingle")
-let b = +prompt("Enter the first side of traingle")
-let c = +prompt("Enter the first side of traingle")
-let s = (a+b+c)/2
-let area = Math.sqrt(s*(s-a)*(s-b)*(s-c))
-console.log(area.toFixed(2))
+// let a = +prompt("Enter the first side of traingle")
+// let b = +prompt("Enter the first side of traingle")
+// let c = +prompt("Enter the first side of traingle")
+// let s = (a+b+c)/2
+// let area = Math.sqrt(s*(s-a)*(s-b)*(s-c))
+// console.log(area.toFixed(2))
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 10 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 10. Find surface area of sphere
+
+let r = +prompt("Enter the radius of circle")
+let circumference = 2*Math.PI*r
+console.log(circumference.toFixed(2))
