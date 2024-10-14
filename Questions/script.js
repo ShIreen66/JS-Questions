@@ -117,3 +117,10 @@
 // let r = +prompt("Enter the radius of circle")
 // let circumference = 2*Math.PI*r
 // console.log(circumference.toFixed(2))
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 12 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// IF ELSE Day 8 to 
+
+// 12. Accept two numbers and print the greatest between them
