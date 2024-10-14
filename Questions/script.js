@@ -78,13 +78,25 @@
 
 // Accept the parameters and calculate the Compound Interest & print it on STDOUT (Use Math class methods)
 
-let p = +prompt("Enter the principle amount")
-let r = +prompt("Enter the rate of interest")/100
-let t = +prompt("Enter the time in years")
-let n = +prompt("Enter the number of times interest applied per time period")
+// let p = +prompt("Enter the principle amount")
+// let r = +prompt("Enter the rate of interest")/100
+// let t = +prompt("Enter the time in years")
+// let n = +prompt("Enter the number of times interest applied per time period")
 
 
-let ci = p*Math.pow(1+r/n,t*n)
-let intrest = ci-p
-console.log("Simple interest :",intrest.toFixed(2))
-console.log("Total amount :",ci.toFixed(2))
+// let ci = p*Math.pow(1+r/n,t*n)
+// let intrest = ci-p
+// console.log("Simple interest :",intrest.toFixed(2))
+// console.log("Total amount :",ci.toFixed(2))
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 9 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 9. Accept the three sides of triangle and calculate the area using herons formula
+
+let a = +prompt("Enter the first side of traingle")
+let b = +prompt("Enter the first side of traingle")
+let c = +prompt("Enter the first side of traingle")
+let s = (a+b+c)/2
+let area = Math.sqrt(s*(s-a)*(s-b)*(s-c))
+console.log(area.toFixed(2))
