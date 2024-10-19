@@ -129,67 +129,42 @@
 
 // 64- Bubble Sort
 // Bubble Sort
-// let arr = [4, 7, 1, 5, 3, 6]
-    // 7 4 5 3 6 1
-    // 7 5 4 6 3 1
+    
+    //  let array = [4, 7, 81, 5, 3, 96];
 
-    // for (let i = 0; i < Array.length; i++) {
-    //     if 
-    // }
-
-    // function bubbleSort(arr) {
-    //     let len = arr.length;
-    //     let swapped;
-    //     do {
-    //         swapped = false;
-    //         for (let i = 0; i < len - 1; i++) {
-    //             if (arr[i] > arr[i + 1]) {
-    //                 // Swap elements
-    //                 let temp = arr[i];
-    //                 arr[i] = arr[i + 1];
-    //                 arr[i + 1] = temp;
-    //                 swapped = true;
-    //             }
+    //  for (let j = 0; j < array.length; j++) {
+    //     for (let i  = 0; i < array.length - 1- j; i++) {
+    //         if (array[i + 1] > array[i]) {
+    //             let temp = array[i +1];
+    //             array[i +1]= array[i];
+    //             array[i] = temp;
     //         }
-    //         len--; // Reduce the range for optimization
-    //     } while (swapped);
-    //     return arr;
-    // }
-    
-    // let arr = [64, 34, 25, 12, 22, 11, 90];
-    // function bubbleSort(arr) {
-    //     let len = arr.length;
-    //     let swapped;
-    //     do {
-    //         swapped = false;
-    //         for (let i = 0; i < len - 1; i++) {
-    //             if (arr[i] > arr[i + 1]) {
-    //                 // Swap elements
-    //                 let temp = arr[i];
-    //                 arr[i] = arr[i + 1];
-    //                 arr[i + 1] = temp;
-    //                 swapped = true;
-    //             }
-    //         }
-    //         len--; // Reduce the range for optimization
-    //     } while (swapped);
-    //     return arr;
-    // }
-    
-    // console.log(bubbleSort(arr)); 
-    // Example usage:
-    
-     // Output: [11, 12, 22, 25, 34, 64, 90]
-    
-     let array = [4, 7, 81, 5, 3, 96];
+    //     }
+    //  }
+    //  console.log(array);
 
-     for (let j = 0; j < array.length; j++) {
-        for (let i  = 0; i < array.length - 1- j; i++) {
-            if (array[i + 1] > array[i]) {
-                let temp = array[i +1];
-                array[i +1]= array[i];
-                array[i] = temp;
-            }
-        }
-     }
-     console.log(array);
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 65 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// 65- Move all the negative elements on left side and positive elements on right side O(n).
+
+// Move -ve on left and +ve on right
+let array = [8, -4, 7, -81, 5, 3, 96];
+
+let left = 0;
+let right = array.length - 1;
+
+while (left <= right) {
+    if (array[left] <=0) {
+        left++
+    } else if (array[right] >= 0) {
+        right--;
+    } else {
+        // swapping logic
+        let temp = array[left];
+        array[left] = array[right];
+        array[right] = temp;
+        left++;
+        right--;
+    }
+}
+
+console.log(array);
