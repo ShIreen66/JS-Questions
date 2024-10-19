@@ -156,26 +156,40 @@
     //     return arr;
     // }
     
-    function bubbleSort(arr) {
-        let len = arr.length;
-        let swapped;
-        do {
-            swapped = false;
-            for (let i = 0; i < len - 1; i++) {
-                if (arr[i] > arr[i + 1]) {
-                    // Swap elements
-                    let temp = arr[i];
-                    arr[i] = arr[i + 1];
-                    arr[i + 1] = temp;
-                    swapped = true;
-                }
-            }
-            len--; // Reduce the range for optimization
-        } while (swapped);
-        return arr;
-    }
+    // let arr = [64, 34, 25, 12, 22, 11, 90];
+    // function bubbleSort(arr) {
+    //     let len = arr.length;
+    //     let swapped;
+    //     do {
+    //         swapped = false;
+    //         for (let i = 0; i < len - 1; i++) {
+    //             if (arr[i] > arr[i + 1]) {
+    //                 // Swap elements
+    //                 let temp = arr[i];
+    //                 arr[i] = arr[i + 1];
+    //                 arr[i + 1] = temp;
+    //                 swapped = true;
+    //             }
+    //         }
+    //         len--; // Reduce the range for optimization
+    //     } while (swapped);
+    //     return arr;
+    // }
     
+    // console.log(bubbleSort(arr)); 
     // Example usage:
-    let arr = [64, 34, 25, 12, 22, 11, 90];
-    console.log(bubbleSort(arr));  // Output: [11, 12, 22, 25, 34, 64, 90]
     
+     // Output: [11, 12, 22, 25, 34, 64, 90]
+    
+     let array = [4, 7, 81, 5, 3, 96];
+
+     for (let j = 0; j < array.length; j++) {
+        for (let i  = 0; i < array.length - 1- j; i++) {
+            if (array[i + 1] > array[i]) {
+                let temp = array[i +1];
+                array[i +1]= array[i];
+                array[i] = temp;
+            }
+        }
+     }
+     console.log(array);
