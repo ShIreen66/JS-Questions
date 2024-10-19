@@ -167,4 +167,5 @@ while (left <= right) {
     }
 }
 
+
 console.log(array);
