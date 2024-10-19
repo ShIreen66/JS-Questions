@@ -124,3 +124,58 @@
 // IF ELSE Day 8 to 
 
 // 12. Accept two numbers and print the greatest between them
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 64- Bubble Sort
+// Bubble Sort
+// let arr = [4, 7, 1, 5, 3, 6]
+    // 7 4 5 3 6 1
+    // 7 5 4 6 3 1
+
+    // for (let i = 0; i < Array.length; i++) {
+    //     if 
+    // }
+
+    // function bubbleSort(arr) {
+    //     let len = arr.length;
+    //     let swapped;
+    //     do {
+    //         swapped = false;
+    //         for (let i = 0; i < len - 1; i++) {
+    //             if (arr[i] > arr[i + 1]) {
+    //                 // Swap elements
+    //                 let temp = arr[i];
+    //                 arr[i] = arr[i + 1];
+    //                 arr[i + 1] = temp;
+    //                 swapped = true;
+    //             }
+    //         }
+    //         len--; // Reduce the range for optimization
+    //     } while (swapped);
+    //     return arr;
+    // }
+    
+    function bubbleSort(arr) {
+        let len = arr.length;
+        let swapped;
+        do {
+            swapped = false;
+            for (let i = 0; i < len - 1; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    // Swap elements
+                    let temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    swapped = true;
+                }
+            }
+            len--; // Reduce the range for optimization
+        } while (swapped);
+        return arr;
+    }
+    
+    // Example usage:
+    let arr = [64, 34, 25, 12, 22, 11, 90];
+    console.log(bubbleSort(arr));  // Output: [11, 12, 22, 25, 34, 64, 90]
+    
