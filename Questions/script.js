@@ -125,6 +125,19 @@
 
 // 12. Accept two numbers and print the greatest between them
 
+    let a = +prompt("enter the first number");
+    let b = +prompt("enter the second number");
+    if (a > b) {
+        console.log(a)
+    } else if(b > a) {
+        console.log(b)
+    } else {
+        console.log("both are equal")
+    }
+
+
+    
+
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 // 64- Bubble Sort
@@ -147,25 +160,26 @@
 // 65- Move all the negative elements on left side and positive elements on right side O(n).
 
 // Move -ve on left and +ve on right
-let array = [8, -4, 7, -81, 5, 3, 96];
 
-let left = 0;
-let right = array.length - 1;
+// let array = [8, -4, 7, -81, 5, 3, 96];
 
-while (left <= right) {
-    if (array[left] <=0) {
-        left++
-    } else if (array[right] >= 0) {
-        right--;
-    } else {
-        // swapping logic
-        let temp = array[left];
-        array[left] = array[right];
-        array[right] = temp;
-        left++;
-        right--;
-    }
-}
+// let left = 0;
+// let right = array.length - 1;
+
+// while (left <= right) {
+//     if (array[left] <=0) {
+//         left++
+//     } else if (array[right] >= 0) {
+//         right--;
+//     } else {
+//         // swapping logic
+//         let temp = array[left];
+//         array[left] = array[right];
+//         array[right] = temp;
+//         left++;
+//         right--;
+//     }
+// }
 
 
-console.log(array);
+// console.log(array);
