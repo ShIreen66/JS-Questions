@@ -138,20 +138,32 @@
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 13 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-// Accept the gender from the user as char and print the respective greeting message
+// 13. Accept the gender from the user as char and print the respective greeting message
 // Ex - Good Morning Sir (on the basis of gender)
 
-    let gender = prompt ("Enter your gender")
-    if (gender == "male") {
-        console.log("good morning sir")
-    } else if (gender == "female") {
-        console.log("Good morning madam")
-    } else {
-        console.log ("Invailid Input")
-    }
+    // let gender = prompt ("Enter your gender")
+    // if (gender == "male") {
+    //     console.log("good morning sir")
+    // } else if (gender == "female") {
+    //     console.log("Good morning madam")
+    // } else {
+    //     console.log ("Invailid Input")
+    // }
 
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 14 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+// 14. Extend the previous program and handle the wrong inputs.
+    //   Print Good Morning sir for input m or M & Good morning Maam for input F or f 
+    //   else print Wrong Input
 
+    // let gender = prompt ("Enter your gender")
+    // if (gender == "m" || gender == "M") {
+    //     console.log("good morning sir")
+    // } else if (gender == "f" || gender == "F") {
+    //     console.log("Good morning maam")
+    // } else {
+    //     console.log ("Wrong Input")
+    // }
     
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
