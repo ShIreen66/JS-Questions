@@ -171,13 +171,40 @@
 
 // 15. Accept an integer and check whether it is an even number or odd.
 
-    let n = +prompt("Enter a number")
+    // let n = +prompt("Enter a number")
 
-    if (n % 2 == 0){
-        console.log ("Even Number")
-    } else {
-        console.log ("Odd Number")
-    }
+    // if (n % 2 == 0){
+    //     console.log ("Even Number")
+    // } else {
+    //     console.log ("Odd Number")
+    // }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 16 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 16. Accept name and age from the user. Check if the user is a valid voter or not.
+    //   Vaid - Hello Shery, You are a valid voter.
+    //   Invalid - Sorry Shery, you can't cast the vote.
+
+    // let name = prompt("Enter your name")
+    // let age = +prompt("Enter your age")
+    
+    // if(age>=18){
+    //     console.log(`Hello ${name}, You are a valid voter`)
+    // }else{
+    //     console.log(`Sorry ${name}, you can't cast the vote`)
+    // }
+
+	// Part 2 - Print after how many years the user will be eligible
+
+    // let name = prompt("Enter your name")
+    // let age = +prompt("Enter your age")
+
+    // if(age>=18){
+    // console.log(`Hello ${name}, You are a valid voter`)
+    // }else{
+    // console.log(`Sorry ${name}, you will be eligible for voting after ${18-age} years `)
+    // }
 
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
