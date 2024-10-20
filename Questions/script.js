@@ -166,6 +166,20 @@
     // }
     
 
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 15 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 15. Accept an integer and check whether it is an even number or odd.
+
+    let n = +prompt("Enter a number")
+
+    if (n % 2 == 0){
+        console.log ("Even Number")
+    } else {
+        console.log ("Odd Number")
+    }
+
+
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 // 64- Bubble Sort
