@@ -125,15 +125,31 @@
 
 // 12. Accept two numbers and print the greatest between them
 
-    let a = +prompt("enter the first number");
-    let b = +prompt("enter the second number");
-    if (a > b) {
-        console.log(a)
-    } else if(b > a) {
-        console.log(b)
+    // let a = +prompt("enter the first number");
+    // let b = +prompt("enter the second number");
+    // if (a > b) {
+    //     console.log(a)
+    // } else if(b > a) {
+    //     console.log(b)
+    // } else {
+    //     console.log("both are equal")
+    // }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 13 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// Accept the gender from the user as char and print the respective greeting message
+// Ex - Good Morning Sir (on the basis of gender)
+
+    let gender = prompt ("Enter your gender")
+    if (gender == "male") {
+        console.log("good morning sir")
+    } else if (gender == "female") {
+        console.log("Good morning madam")
     } else {
-        console.log("both are equal")
+        console.log ("Invailid Input")
     }
+
 
 
     
