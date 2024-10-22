@@ -211,23 +211,43 @@
 
 // 17. Accept a day number between 1-7 and print the corresponding dayname.
 
-    let day = +prompt("Enter the day Number")
-    if (day == 1) {
-        console.log("Monday")
-    } else if (day == 2) {
-        console.log("Tuesday")
-    } else if (day == 3) {
-        console.log ("Wednesday")
-    } else if (day == 4) {
-        console.log (day == "Thursday")
-    } else if (day == 5) {
-        console.log (day == Friday)
-    } else if (day == 6) {
-        console.log("Saturday")
-    } else if (day == 7) {
-        console.log ("Sunday")
+    // let day = +prompt("Enter the day Number")
+    // if (day == 1) {
+    //     console.log("Monday")
+    // } else if (day == 2) {
+    //     console.log("Tuesday")
+    // } else if (day == 3) {
+    //     console.log ("Wednesday")
+    // } else if (day == 4) {
+    //     console.log (day == "Thursday")
+    // } else if (day == 5) {
+    //     console.log ("Friday")
+    // } else if (day == 6) {
+    //     console.log("Saturday")
+    // } else if (day == 7) {
+    //     console.log ("Sunday")
+    // } else {
+    //     console.log ("Invailid")
+    // }
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 18 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// Accept three numbers and print the greatest among them
+
+    let a = +prompt("Enter the First Number")
+    let b = +prompt("Enter the Second Number")
+    let c = +prompt("Enter the Third Number")
+
+    if (a > b && a > c) {
+        console.log(a)
+    } else if (b > c && b > a) {
+        console.log(b)
+    } else if (c >a && c > b) {
+        console.log(c)
+    } else {
+        console.log ("All Are Equal")
     }
-    
+
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 // 64- Bubble Sort
