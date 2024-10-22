@@ -207,6 +207,27 @@
     // }
 
 
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 17 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 17. Accept a day number between 1-7 and print the corresponding dayname.
+
+    let day = +prompt("Enter the day Number")
+    if (day == 1) {
+        console.log("Monday")
+    } else if (day == 2) {
+        console.log("Tuesday")
+    } else if (day == 3) {
+        console.log ("Wednesday")
+    } else if (day == 4) {
+        console.log (day == "Thursday")
+    } else if (day == 5) {
+        console.log (day == Friday)
+    } else if (day == 6) {
+        console.log("Saturday")
+    } else if (day == 7) {
+        console.log ("Sunday")
+    }
+    
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 // 64- Bubble Sort
