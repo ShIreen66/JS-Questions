@@ -232,21 +232,60 @@
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 18 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-// Accept three numbers and print the greatest among them
+// 18. Accept three numbers and print the greatest among them
 
-    let a = +prompt("Enter the First Number")
-    let b = +prompt("Enter the Second Number")
-    let c = +prompt("Enter the Third Number")
+    // let a = +prompt("Enter the First Number")
+    // let b = +prompt("Enter the Second Number")
+    // let c = +prompt("Enter the Third Number")
 
-    if (a > b && a > c) {
-        console.log(a)
-    } else if (b > c && b > a) {
-        console.log(b)
-    } else if (c >a && c > b) {
-        console.log(c)
-    } else {
-        console.log ("All Are Equal")
-    }
+    // if (a > b && a > c) {
+    //     console.log(a)
+    // } else if (b > c && b > a) {
+    //     console.log(b)
+    // } else if (c >a && c > b) {
+    //     console.log(c)
+    // } else {
+    //     console.log ("All Are Equal")
+    // }
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 19 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 19.Accept a year and check if it a leap year or not (google to find out what's a leap year)
+
+    // let year = +prompt("Enter the year")
+
+// if(year%4 == 0){
+//     if(year%100 == 0){
+//         if(year%400 == 0){
+//             console.log("Leap year")
+//         }else{
+//             console.log("Not a leap year")
+//         }
+//     }else{
+//         console.log("Leap year")
+//     }
+// }else{
+//     console.log("Not a leap year")
+// }
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 20 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+// 20.Shop discount - Description on Graphic
+
+    // if the bil is <= 1000 then 10% discount
+	// if the bil is <= 2000 then 20% discount
+	// if the bil is > 2000 then 30% discount
+
+
+	// let billamount = +prompt("Enter the bill amount")
+	// if(billamount <= 1000){
+	// 	console.log(`The total bill amount is ${billamount-(billamount*10/100)}`)
+	// }else if(billamount <= 2000){
+	// 	console.log(`The total bill amount is ${billamount-(billamount*20/100)}`)
+	// }else{
+	// 	console.log(`The total bill amount is ${billamount-(billamount*30/100)}`)
+	// }
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Question 64 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
